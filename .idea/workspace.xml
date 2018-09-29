@@ -62,6 +62,9 @@
       <find>import React from \'react\'\;\nimport \{ StyleSheet\, Text\, View\, Image \} from \'react\-native\'\;\n\nexport default class App extends React\.Component \{\n  render\(\) \{\n      let pic \= \{\n          uri\: \'https\:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/d\/de\/Bananavarieties\.jpg\'\n      \}\;\n      return \(\n      \&lt;View style\=\{styles\.container\}\&gt;\n        \&lt;Text\&gt;Fucking no way\.\&lt;\/Text\&gt;\n      \&lt;\/View\&gt;\n    \)\;\n  \}\n\}\n\nconst styles \= StyleSheet\.create\(\{\n  container\: \{\n    flex\: 1\,\n    backgroundColor\: \'\#fff\'\,\n    alignItems\: \'center\'\,\n    justifyContent\: \'center\'\,\n  \}\,\n\}\)\;\n</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -91,6 +94,7 @@
     <option name="width" value="960" />
     <option name="height" value="1140" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -156,12 +160,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538197997061</updated>
-      <workItem from="1538198000234" duration="6694000" />
+      <workItem from="1538198000234" duration="7175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6694000" />
+    <option name="totallyTimeSpent" value="7175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="23" width="960" height="1140" extended-state="0" />
