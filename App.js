@@ -1,5 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, Image, TextInput} from 'react-native';
+import {StyleSheet, Text, View, Image, TextInput, Button, Alert, TouchableHighlight,
+    TouchableOpacity, TouchableNativeFeedback, TouchableWithoutFeedback} from 'react-native';
 
 class Cities extends React.Component {
     render() {
@@ -17,6 +18,11 @@ export default class App extends React.Component {
         super(props);
         this.state = {text: ''};
     }
+
+    _onPressButton(title, message){
+        Alert.alert('Button Pressed', message)
+    }
+
     render() {
         let bostonFlag = {
             uri: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Boston.svg/1200px-Flag_of_Boston.svg.png'
@@ -31,6 +37,11 @@ export default class App extends React.Component {
             <TextInput placeholder="Enter city."
                        onChangeText={(text) => this.setState({text})}/>
             <Text>{this.state.text.split(' ').map((word) => word && '🍕').join(' ')}</Text>
+            <TouchableHighlight onPress={this._onPressButton("Hi","Hello")}>
+                <View style={styles.button}>
+                    <Text style={styles.buttonText}>Button</Text>
+                </View>
+            </TouchableHighlight>
         </View>
 
 
